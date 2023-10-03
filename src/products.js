@@ -1,8 +1,8 @@
 const ProductData = [
   {
       id: 1,
-      img: '/LGOLED65-transparent.png',
-      imgBrand: '/LGLogo.png',
+      img: './LGOLED65-transparent.png',
+      imgBrand: './LGLogo.png',
       productName: 'LG OLED65BX6LB 65 Smart TV - A Energy Rated',
       productFeatures: ['Self-lit pixels',
       'a7 Gen3 Intelligent Processor 4K',
@@ -17,8 +17,8 @@ const ProductData = [
   },
   {
     id: 2,
-    img: '/LGOLED65-transparent.png',
-    imgBrand: '/LGLogo.png',
+    img: './LGOLED65-transparent.png',
+    imgBrand: './LGLogo.png',
     productName: 'LG OLED65BX6LB 65 Smart TV - A Energy Rated',
     productFeatures: ['Self-lit pixels',
     'a7 Gen3 Intelligent Processor 4K',
