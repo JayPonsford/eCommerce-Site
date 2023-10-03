@@ -1,5 +1,5 @@
 import {useEffect, useState } from 'react'
-import './App.css'
+import './app2.css'
 import ProductData from './products'
 import { FaHeart, FaChartBar, FaShoppingCart, FaShuttleVan } from 'react-icons/fa';
 import moment from "moment";
