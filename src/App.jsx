@@ -32,7 +32,7 @@ const App = () => {
           </div>
           <div className="flex-item-centre">
               <h5 className='productTitle'>{productData.productName}</h5>
-              <div className="stars" style={{ '--rating': `${productData.stockPercent}` }}><span className="reviewAmount">(11 reviews)</span></div>
+              <div className="stars" style={{ '--rating': `${productData.starRating}` }}><span className="reviewAmount">(11 reviews)</span></div>
               {productData.productFeatures && (
                 <ul className='productFeatures'>
                   {productData.productFeatures.map((feature, index) => (
