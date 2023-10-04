@@ -132,7 +132,7 @@ body {
 
 
 /* Review Rating */
-.Stars {
+.stars {
   --percent: calc(var(--rating) / 5 * 100%);
   margin-left: 10px;
   display: inline-block;

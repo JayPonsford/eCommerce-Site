@@ -28,11 +28,11 @@ const App = () => {
           <div className="flex-item-left">
           <div className="eRecommend" style={{visibility: productData.isRecommended ? '' : 'hidden'}}>Eclipse Recommended</div>
               <img className="productImage" src={productData.img} alt={productData.productName}></img>
-              <img className="subLogo" src={productData.imgBrand} alt={productData.productName}></img>
+              <img className="subLogo" src={productData.imgBrand} alt={productData.productBrand}></img>
           </div>
           <div className="flex-item-centre">
               <h5 className='productTitle'>{productData.productName}</h5>
-              <div className="Stars" style={{ '--rating': `${productData.stockPercent}` }}><span className="reviewAmount">(11 reviews)</span></div>
+              <div className="stars" style={{ '--rating': `${productData.stockPercent}` }}><span className="reviewAmount">(11 reviews)</span></div>
               {productData.productFeatures && (
                 <ul className='productFeatures'>
                   {productData.productFeatures.map((feature, index) => (
